@@ -1,0 +1,27 @@
+{
+  "WordPress": {
+    "categories": ["CMS"],
+    "headers": ["wordpress", "wp-"],
+    "html": ["wp-content", "wp-includes"],
+    "meta": ["generator.*WordPress"],
+    "version_patterns": ["generator.*WordPress ([0-9.]+)", "wp-emoji-release.*([0-9.]+)"]
+  },
+  "jQuery": {
+    "categories": ["JavaScript Library"],
+    "script": ["jquery"],
+    "version_patterns": ["jquery[.-]([0-9.]+)", "jquery.*([0-9]+\\.[0-9]+\\.[0-9]+)"]
+  },
+  "Bootstrap": {
+    "categories": ["CSS Framework"],
+    "html": ["bootstrap"],
+    "version_patterns": ["bootstrap[.-]([0-9.]+)"]
+  },
+  "React": {
+    "categories": ["JavaScript Framework"],
+    "version_patterns": ["react[.-]([0-9.]+)"]
+  },
+  "Cloudflare": {
+    "categories": ["Security", "CDN"],
+    "headers": ["cloudflare", "cf-ray"]
+  }
+}
